@@ -1,0 +1,155 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab library\Reconstruction.prj" location="D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab library" name="Reconstruction" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>Reconstruction</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Maarten Bassier</param.authnamewatermark>
+    <param.email>maarten.bassier@kuleuven.be</param.email>
+    <param.company>KU Leuven</param.company>
+    <param.summary>Library for the reconstruction of BIM entities</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\KU Leuven\Reconstruction\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Reconstruction\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Reconstruction\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Reconstruction\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Reconstruction</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.net.component</param.target.type>
+    <param.support.packages />
+    <param.namespace>Reconstruction</param.namespace>
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>Reconstruction</param.net.tsa.namespace>
+    <param.net.tsa.superclass>fittwall</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Users\u0094523\Documents\MATLAB</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface />
+    <param.cpp.api>option.cpp.all</param.cpp.api>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.net.saved.interface />
+      <param.cpp.api />
+    </unset>
+    <fileset.exports>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\G_fitwall.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="fittwall">
+          <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\G_fitwall.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\distance2curve.m</file>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\F_Arcfit_RANSAC.m</file>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\F_Arcfit_TLS.m</file>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\F_Linefit_RANSAC2.m</file>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\F_Linefit_TLS.m</file>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\F_Polyfit_RANSAC2.m</file>
+      <file>D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab\Reconstruction\F_Polyfit_RANSAC3.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Reconstruction\for_testing" name="readme.txt" optional="true">D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab library\Reconstruction\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Reconstruction\for_testing" name="ReconstructionNative.dll" optional="false">D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab library\Reconstruction\for_testing\ReconstructionNative.dll</file>
+      <file location="${PROJECT_ROOT}\Reconstruction\for_testing" name="Reconstruction_overview.html" optional="false">D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab library\Reconstruction\for_testing\Reconstruction_overview.html</file>
+      <file location="${PROJECT_ROOT}\Reconstruction\for_testing" name="Reconstruction.dll" optional="false">D:\Google Drive\Research\Grasshopper Plugin Scan-to-BIM\WallReconstruction\Matlab library\Reconstruction\for_testing\Reconstruction.dll</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
